@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier"
+  ],
+  "plugins": ["jsx-a11y", "react-hooks", "prettier"],
+  "rules": {
+    // Allow single Named-export
+    "import/prefer-default-export": "off",
+
+    // Set react-hooks lint as error
+    "react-hooks/rules-of-hooks": "error",
+
+    // Warn about things instead of errors, also just turn some of them off
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars": "warn",
+    "react/self-closing-comp": "warn",
+    "react/prop-types": "off"
+  }
+}
+
