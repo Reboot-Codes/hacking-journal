@@ -1,7 +1,7 @@
 import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './utils/reportWebVitals';
 import * as serviceWorker from './utils/serviceWorker';
@@ -9,10 +9,10 @@ import * as serviceWorker from './utils/serviceWorker';
 ReactDOM.render(
   <StrictMode>
     <ChakraProvider>
-      <BrowserRouter>
+      <HashRouter>
         <ColorModeScript />
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </ChakraProvider>
   </StrictMode>,
   document.getElementById('root')
