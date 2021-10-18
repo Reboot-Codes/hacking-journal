@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/hacking-journal/static/js/main.2a9b49e3.chunk.js",
+    "main.js.map": "/hacking-journal/static/js/main.2a9b49e3.chunk.js.map",
+    "runtime-main.js": "/hacking-journal/static/js/runtime-main.dbcd4a34.js",
+    "runtime-main.js.map": "/hacking-journal/static/js/runtime-main.dbcd4a34.js.map",
+    "static/js/2.40bd397c.chunk.js": "/hacking-journal/static/js/2.40bd397c.chunk.js",
+    "static/js/2.40bd397c.chunk.js.map": "/hacking-journal/static/js/2.40bd397c.chunk.js.map",
+    "static/js/3.b5886e0d.chunk.js": "/hacking-journal/static/js/3.b5886e0d.chunk.js",
+    "static/js/3.b5886e0d.chunk.js.map": "/hacking-journal/static/js/3.b5886e0d.chunk.js.map",
+    "index.html": "/hacking-journal/index.html",
+    "static/js/2.40bd397c.chunk.js.LICENSE.txt": "/hacking-journal/static/js/2.40bd397c.chunk.js.LICENSE.txt",
+    "static/media/logo.034ef726.svg": "/hacking-journal/static/media/logo.034ef726.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbcd4a34.js",
+    "static/js/2.40bd397c.chunk.js",
+    "static/js/main.2a9b49e3.chunk.js"
+  ]
+}
